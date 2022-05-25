@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://www.aluracursos.com/" target="_blank" rel="noopener noreferrer"><img src="./assets/Logo.svg" alt="Logo de Alura"></a>
+        </nav>
+    </header>
+    <main>
+        <section id="text_container">
+            <textarea name="text" id="text" cols="30" rows="5" placeholder="Escreva seu texto aqui!"></textarea>
+            <div id="btns_container">
+                <div id="info_container">
+                    <img src="./assets/info icon.svg">
+                    <p id="info_detail">Apenas letras minusculas sem caracteres especiais!</p>
+                </div>
+                <div id="buttons">
+                    <input id="encrypt_btn" type="button" value="Encriptar">
+                    <input id="decrypt_btn" type="button" value="Desencriptar">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="msg_enc_dec">
+                <img src="./assets/not found.svg">
+                <h4 id="encrypted_text">Nenhuma mensagem foi encontrada</h4>
+                <h5>Coloque o texto para encriptar e desencriptar</h5>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>Criado por Eduardo Quero</h4>
+        <a href="https://github.com/EduardoQuero" target="_blank"><img src="./assets/fotoperfil.jpg"></a>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
