@@ -1,22 +1,45 @@
-Olá, seja bem vindo ao meu primeiro desafio Alura/Oracle
+# Decodificador de Texto
 
+Aplicação web criada no primeiro desafio do programa Oracle Next Education com a Alura. Ela criptografa e descriptografa textos no navegador usando um conjunto simples de substituições.
 
-Primeiro desafio do curso de programação.
+## Como funciona
 
-O desafio consistiu em construir uma página web para criptografar e descriptografar textos de forma simples utilizando apenas Javascript, HTML5 e CSS.
+| Letra | Código |
+|---|---|
+| `a` | `ai` |
+| `e` | `enter` |
+| `i` | `imes` |
+| `o` | `ober` |
+| `u` | `ufat` |
 
-Como funciona:
+A entrada deve conter somente letras minúsculas, sem acentos nem caracteres especiais.
 
-A letra "e" é convertida para "enter"
+## Executar localmente
 
-A letra "i" é convertida para "imes"
+Nenhuma instalação é necessária. Clone o projeto e abra `index.html` no navegador:
 
-A letra "a" é convertida para "ai"
+```bash
+git clone https://github.com/EduardoQuero/challenge-alura-encriptador.git
+cd challenge-alura-encriptador
+```
 
-A letra "o" é convertida para "ober"
+Para evitar limitações do navegador, também é possível usar um servidor local:
 
-A letra "u" é convertida para "ufat"
+```bash
+python -m http.server 8000
+```
 
+Acesse `http://localhost:8000`.
 
+## Estrutura
 
+```text
+assets/       imagens e ícones
+js/           lógica da aplicação
+styles/       estilos
+index.html    página principal
+```
 
+## Tecnologias
+
+HTML5, CSS3 e JavaScript.
